@@ -100,7 +100,7 @@
             dataType: 'JSON',
             success: function(data) {
                 $('#resultado').html('');
-                $('#resultado').append("<b>Resultado:</b> " + data);
+                $('#resultado').append("<h4><b>Resultado:</b> " + data)+ "</h4>";
             }
         });
 
